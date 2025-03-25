@@ -1,0 +1,94 @@
+body{
+    background: black;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.post{
+    background-color: white;
+    width: 600px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.post-header{
+    padding:0px 14px;
+    overflow: hidden;
+}
+.header-titulo{
+    
+    width: 50%;
+    float: left;
+    font-weight: bold;
+    display: flex;
+}
+.htmli{
+    font-size: 2em;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+.rigo{
+    font-weight: 100;
+    color: gray;
+    
+}
+.header-puntos{
+    
+    text-align:right;
+    color:black;
+    margin-top: 21px;
+    font-size: 1.5em;
+}
+.imagen{
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+}
+img{
+    max-width: 600px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.heart {
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 10px;
+
+}
+
+.comment {
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+
+}
+
+.paper {
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+
+}
+
+.save {
+    margin: 8px 15px 8px 455px;
+    align-self: center;
+    font-size: 1.5em;
+
+}
+
+
+.comentario{
+    padding:0px 20px;
+}
+
+.footer{
+    height: 135px;
+}
